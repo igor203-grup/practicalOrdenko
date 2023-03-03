@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class = "header pad">
+    <div>
+      <h1>Мій особистий блог</h1>
+      <h3>Орденко Ігорь</h3>
+    </div>
+    <div class = "rightHeader">
+      <a class = "register" href="">вхід</a>
+      <a class = "register" href="register.html">регестрація</a>
+    </div>
+  </div>
+  <div class = "com">
+    <div class ="main-div">
+      <div>
+        <div class = "d">
+          <h4 style ="color:rgb(97, 177, 201)">Create a Repository<br></h4>
+          <p>From scratch -• Create a new local</p>
+          <b>§ git init (project name)</b></br>
+          <p>Download from an existing recository</p>
+          <b>§ git clone my_ur1</b>
+        </div>
+        <div class = "d">
+          <h4 style = "color:blue">Observe your Repository</h4><br>
+          <p>List new or modified files not yet committed</p>
+          <b>art status</b><br>
+          <p>Show the changes to files not yet staged</p>
+          <b>§ git diff</b><br>
+          <p>Show the changes to staged files</p>
+          <b>§ git diff --cached</b><br>
+          <p>Show all staged and unstaged file changes</p>
+          <b>§ git diff HEAD</b><br>
+          <p>Show the changes between two commit ids</p>
+          <b>§ git diff commitl commit2</b><br>
+          <p>List the charge dates and authors for a file</p>
+          <b>$ git blane (file)</b><br>
+          <p>Show the file changes for a commit id and/or fie</p>
+          <b>§ git show (commit]: (fle)</b><br>
+          <p>Show full change history</p>
+          <b>§ git log</b><br>
+          <p>Show change history for file/directory inclucing diffs</p>
+          <b>§ git log -p (file/directory)</b>
+        </div>
+      </div>
+      <div class = "d">
+        <h4>Working with Branches</h4><br>
+        <p>List all local branches</p>
+        <b>§ git branch</b><br>
+        <p>List all branches, local and remote</p>
+        <b>§ git branch</b><br>
+        <p>Switch to a branch, my branch, <br>and update working directory</p>
+        <b>§ git checkout my_branch</b><br>
+        <p>Create a new branch called new branch</p>
+        <b>§ git branch new branch</b><br>
+        <p>Delete the branch called my_branch</p>
+        <b>§ git branch -d my_branch</b><br>
+        <p>Merge branch_a into branch b</p>
+        <b>§ git checkout branch b</b><br>
+        <b>§ git merge branch_a</b><br>
+        <p>Tag the current commit</p>
+        <b>§ git tag my_tag</b>
+      </div>
+      <div class = "d">
+        <h4 style = "color:rgb(75, 221, 75)">Make a change</h4><br>
+        <p>Stages the file, ready for commit</p>
+        <b>§ git add (file)</b><br>
+        <p>Stage all changed files, ready for commit</p>
+        <b>§ git add</b><br>
+        <p>Commit all staged files to versioned history</p>
+        <b>§ git commit -m commut message"</b><br>
+        <p>Commit all your tracked files to versioned history</p>
+        <b>$git commit -an "commit message"</b><br>
+        <p>Unstages file, keeping the file changes</p>
+        <b>§ git reset (file)</b><br>
+        <p>Revert everything to the last commit</p>
+        <b>s git reset =-hard</b>
+      </div>
+      <div>
+        <div class = "d">
+          <h4 style = "color:rgb(57, 152, 91)">Synchronize</h4><br>
+          <p>Get the latest changes from origin (no merge)</p>
+          <b>§ git fetch</b><br>
+          <p>Fetch the latest changes from origin and merge</p>
+          <b>$ git pull</b><br>
+          <p>Fetch the latest changes from crigin and rebase</p>
+          <b>$ git pull --rebase</b><br>
+          <p>Push local changes to the origin</p>
+          <b>§ git push</b><br>
+        </div>
+        <div class = "d">
+          <h4 style ="color:rgb(34, 255, 0)">Finally!</h4><br>
+          <p>When in doubt, use gt help</p>
+          <b>§ git command --help</b><br>
+          <p>Or visit https://training-github.com/</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class = "footer">
+    <h4>&copy Всі права захищені.</h4>
+    <h4>Розробник курсан 203 навчальної групи Орденко.І.В</h4>
+  </div>
+</body>
+</html>
